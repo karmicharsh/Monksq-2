@@ -1,0 +1,32 @@
+[
+    {
+      "id": 1,
+      "name": "Itachi Uchiha: Master of Sharingan",
+      "category": "Tees",
+      "brand": "monksq",
+      "price": 499.99,
+      "stock": 100,
+      "description": "Oversized tee,oversized love for itachi.Itachi Uchiha:Master of sharingan.",
+      "image": "../images/Itachi.png"
+    },
+    {
+      "id": 2,
+      "name": "Baki:The grappler",
+      "category": "Tees",
+      "brand": "monksq",
+      "price": 499.99,
+      "stock": 100,
+      "image": "../images/whiteTee.png",
+      "description": "Dressed to impress, Baki style! Who else is a fan?."
+    },
+    {
+      "id": 3,
+      "name": "Zoro:The pirate hunter",
+      "category": "Tees",
+      "brand": "monksq",
+      "price": 499.99,
+      "stock": 100,
+      "image": "../images/zoro.png",
+      "description": "Unleash the inner swordsman:Rock your zoro vibes with this epic tee."
+    }
+  ]
