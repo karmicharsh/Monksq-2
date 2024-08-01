@@ -87,21 +87,66 @@ Start the development server:
 npm run dev
 Your app will be available at http://localhost:3000.
 
-Usage:
-Browse Products: Navigate through the product pages to view our items.
-Create an Account: Sign up or log in using Firebase authentication.
-Make a Purchase: Add items to your cart and proceed to checkout using Stripe for secure payments.
 
-We welcome contributions to improve our project! If you would like to contribute, please follow these steps:
+## Usage
 
-Fork the repository
-Create a new branch (git checkout -b feature-branch).
-Commit your changes (git commit -m 'Add some feature').
-Push to the branch (git push origin feature-branch).
-Open a pull request.
+1. **Navigate to the main page**:
 
-License:
+    Open your browser and go to `http://localhost:3000` (or the URL provided by your development server).
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+2. **Sign In or Sign Up**:
 
-Thank you for visiting MonkSquare! Follow us on Instagram for the latest updates.
+    Click on the `SIGN IN` or `SIGN UP` links to create an account or log in.
+
+3. **Browse Products**:
+
+    Explore the available products and add them to your cart.
+
+4. **Add to Cart**:
+
+    Click on the `Add to Cart` button for any product you wish to purchase. If you are not logged in, you will be redirected to the sign-in page.
+
+5. **Checkout**:
+
+    Proceed to the checkout page and complete the payment process using Stripe.
+
+## Contributing
+
+We welcome contributions to enhance MonkSquare! To contribute, please follow these steps:
+
+1. **Fork the repository**:
+
+    Click the `Fork` button at the top right of this page to create a copy of this repository under your GitHub account.
+
+2. **Clone your fork**:
+
+    ```sh
+    git clone https://github.com/your-username/monksquare.git
+    ```
+
+3. **Create a branch for your feature or bug fix**:
+
+    ```sh
+    git checkout -b feature/your-feature-name
+    ```
+
+4. **Make your changes**:
+
+    Implement your feature or fix the bug.
+
+5. **Commit your changes**:
+
+    ```sh
+    git commit -m "Description of your changes"
+    ```
+
+6. **Push to your branch**:
+
+    ```sh
+    git push origin feature/your-feature-name
+    ```
+
+7. **Open a Pull Request**:
+
+    Go to the original repository on GitHub and create a pull request from your forked repository.
+    Harsh Singh
