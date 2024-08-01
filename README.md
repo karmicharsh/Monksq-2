@@ -2,7 +2,7 @@
 
 Welcome to the MonkSquare E-commerce Website! This project is a small local e-commerce brand designed to showcase and sell our unique products. You can visit our Instagram page [here](https://www.instagram.com/monksquare.in/).
 
-![MonkSquare Banner](https://drive.google.com/file/d/1lmul5C3beAh0CGCGFsJniuCWYYbeuGDX/view?usp=drive_link)
+![MonkSquare Banner][logo](https://drive.google.com/file/d/1lmul5C3beAh0CGCGFsJniuCWYYbeuGDX/view?usp=drive_link)
 
 ## Table of Contents
 
@@ -47,20 +47,20 @@ Make sure you have the following installed:
 ### Installation
 
 1. **Clone the Repository:**
-   ```bash
+
    git clone https://github.com/yourusername/monksquare.git
    cd monksquare
+
 Install Dependencies:
 
-bash
-Copy code
+
 npm install
+
 Firebase Setup:
 
 Create a Firebase project here.
 Add your project configuration to your JavaScript file:
-javascript
-Copy code
+
 const firebaseConfig = {
   apiKey: "YOUR_API_KEY",
   authDomain: "YOUR_AUTH_DOMAIN",
@@ -70,34 +70,38 @@ const firebaseConfig = {
   appId: "YOUR_APP_ID"
 };
 firebase.initializeApp(firebaseConfig);
+
 Stripe Setup:
 
 Create a Stripe account here.
+
 Add your Stripe public key to your JavaScript file:
-javascript
-Copy code
+
 const stripe = Stripe('YOUR_PUBLIC_KEY');
+
 Running the Project
+
 Start the development server:
 
-bash
-Copy code
+
 npm run dev
 Your app will be available at http://localhost:3000.
 
-Usage
+Usage:
 Browse Products: Navigate through the product pages to view our items.
 Create an Account: Sign up or log in using Firebase authentication.
 Make a Purchase: Add items to your cart and proceed to checkout using Stripe for secure payments.
-Contributing
+
 We welcome contributions to improve our project! If you would like to contribute, please follow these steps:
 
-Fork the repository.
+Fork the repository
 Create a new branch (git checkout -b feature-branch).
 Commit your changes (git commit -m 'Add some feature').
 Push to the branch (git push origin feature-branch).
 Open a pull request.
-License
+
+License:
+
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 Thank you for visiting MonkSquare! Follow us on Instagram for the latest updates.
