@@ -45,49 +45,46 @@ Make sure you have the following installed:
 - [npm](https://www.npmjs.com/get-npm)
 
 ### Installation
+To get a local copy of this project up and running, follow these steps:
 
-1. **Clone the Repository:**
+1. **Clone the Repository**:
+    - Open your terminal.
+    - Run the following command to clone the repository to your local machine:
 
-   git clone https://github.com/yourusername/monksquare.git
-   cd monksquare
+    ```sh
+    git clone https://github.com/username/monksquare.git
+    ```
 
-Install Dependencies:
+2. **Navigate to the Project Directory**:
+    - Change to the project directory with the following command:
 
+    ```sh
+    cd monksquare
+    ```
 
-npm install
+3. **Install Dependencies**:
+    - Ensure you have Node.js and npm installed on your machine.
+    - Run the following command to install the project dependencies:
 
-Firebase Setup:
+    ```sh
+    npm install
+    ```
 
-Create a Firebase project here.
-Add your project configuration to your JavaScript file:
+4. **Start the Development Server**:
+    - Use the following command to start the development server with Vite:
 
-const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_AUTH_DOMAIN",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_STORAGE_BUCKET",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID"
-};
-firebase.initializeApp(firebaseConfig);
+    ```sh
+    npm run dev
+    ```
 
-Stripe Setup:
+5. **Open the Project in Your Browser**:
+    - Once the development server is running, open your browser and go to:
 
-Create a Stripe account here.
+    ```
+    http://localhost:3000
+    ```
 
-Add your Stripe public key to your JavaScript file:
-
-const stripe = Stripe('YOUR_PUBLIC_KEY');
-
-Running the Project
-
-Start the development server:
-
-
-npm run dev
-Your app will be available at http://localhost:3000.
-
-
+    (The URL might vary depending on the configuration provided by Vite. Check your terminal for the exact URL.)
 ## Usage
 
 1. **Navigate to the main page**:
