@@ -2,7 +2,7 @@
 
 Welcome to the MonkSquare E-commerce Website! This project is a small local e-commerce brand designed to showcase and sell our unique products. You can visit our Instagram page [here](https://www.instagram.com/monksquare.in/).
 
-![MonkSquare Banner][](https://drive.google.com/file/d/1lmul5C3beAh0CGCGFsJniuCWYYbeuGDX/view?usp=drive_link)
+![MonkSquare Banner](./public/images/monksqLogo1.png)
 
 ## Table of Contents
 
