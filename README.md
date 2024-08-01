@@ -2,7 +2,7 @@
 
 Welcome to the MonkSquare E-commerce Website! This project is a small local e-commerce brand designed to showcase and sell our unique products. You can visit our Instagram page [here](https://www.instagram.com/monksquare.in/).
 
-![MonkSquare Banner](path_to_your_banner_image)
+![MonkSquare Banner](https://drive.google.com/file/d/1lmul5C3beAh0CGCGFsJniuCWYYbeuGDX/view?usp=drive_link)
 
 ## Table of Contents
 
@@ -101,8 +101,3 @@ License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 Thank you for visiting MonkSquare! Follow us on Instagram for the latest updates.
-
-css
-Copy code
-
-Feel free to adjust the paths, images, and any other specific details to better fit your project. This enhanced README.md should provide a comprehensive and attractive guide for users and contributors alike.
