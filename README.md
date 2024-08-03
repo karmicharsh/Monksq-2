@@ -81,7 +81,7 @@ To get a local copy of this project up and running, follow these steps:
     - Once the development server is running, open your browser and go to:
 
     ```
-    http://localhost:3000
+    http://localhost:5173
     ```
 
     (The URL might vary depending on the configuration provided by Vite. Check your terminal for the exact URL.)
@@ -89,7 +89,7 @@ To get a local copy of this project up and running, follow these steps:
 
 1. **Navigate to the main page**:
 
-    Open your browser and go to `http://localhost:3000` (or the URL provided by your development server).
+    Open your browser and go to `http://localhost:5173` (or the URL provided by your development server).
 
 2. **Sign In or Sign Up**:
 
@@ -106,6 +106,19 @@ To get a local copy of this project up and running, follow these steps:
 5. **Checkout**:
 
     Proceed to the checkout page and complete the payment process using Stripe.
+    For the backend created a server.js file that creates a checkout session 
+    ```
+    sh
+    npm install express stripe dotenv ejs
+    ```
+    Install nodemon for better use 
+
+    TO run the backend server:
+    ```
+    sh
+    node server.js
+    ```
+
 
 ## Contributing
 
@@ -146,4 +159,4 @@ We welcome contributions to enhance MonkSquare! To contribute, please follow the
 7. **Open a Pull Request**:
 
     Go to the original repository on GitHub and create a pull request from your forked repository.
-    Harsh Singh
+    
