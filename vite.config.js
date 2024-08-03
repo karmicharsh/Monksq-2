@@ -1,4 +1,3 @@
-// vite.config.js
 import { defineConfig } from "vite";
 import { resolve } from "path";
 
@@ -16,4 +15,13 @@ export default defineConfig({
       },
     },
   },
+  server: {
+    proxy: {
+      '/api': {
+        target: 'http://localhost:3000', // Your backend server URL
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/api/, '')
+      }
+    }
+  }
 });
