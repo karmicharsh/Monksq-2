@@ -26,6 +26,7 @@ MonkSquare is an e-commerce website built using modern web technologies to provi
 - **Frontend:** HTML, CSS, JavaScript
 - **Bundler:** Vite
 - **Authentication:** Firebase
+- **Backend:** NodeJs, Express
 - **Payment Integration:** Stripe
 
 ## Features
