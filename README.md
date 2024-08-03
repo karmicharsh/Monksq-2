@@ -106,16 +106,14 @@ To get a local copy of this project up and running, follow these steps:
 5. **Checkout**:
 
     Proceed to the checkout page and complete the payment process using Stripe.
-    For the backend created a server.js file that creates a checkout session 
-    ```
-    sh
+    For the backend created a server.js file that creates a checkout session .
+    ```sh
     npm install express stripe dotenv ejs
     ```
-    Install nodemon for better use 
+    Install nodemon for better use .
 
-    TO run the backend server:
-    ```
-    sh
+    To run the backend server:
+    ```sh
     node server.js
     ```
 
